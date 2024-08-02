@@ -1,2 +1,4 @@
 ---
-# handlers file for role_remplate
+- name: Reboot system
+  listen: reboot_system
+  ansible.builtin.reboot:
